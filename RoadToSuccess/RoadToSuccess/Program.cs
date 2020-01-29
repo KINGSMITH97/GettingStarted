@@ -75,7 +75,24 @@ namespace RoadToSuccess
             // }
 
 
-            //
+            //article 45 Question 5 
+            Console.WriteLine("Please a series of numbers separated by a space ");
+            var UserInput = Console.ReadLine();
+
+            var numbers = UserInput.Split(' ');
+
+            var max = Convert.ToInt32(numbers[0]);
+            foreach(var number in numbers)
+            {
+                var num = Convert.ToInt32(number);
+
+                if (num>max)
+                {
+                    max = num;
+                }
+
+            }
+            Console.WriteLine("the maximum number is " + max);
         }
 
 
