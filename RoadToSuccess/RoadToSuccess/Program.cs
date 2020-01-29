@@ -10,7 +10,7 @@ namespace RoadToSuccess
     {
         static void Main(string[] args)
         {
-            //article 45 Question number one 
+            //article 52 Question number one 
 
             //   var count = 0;
             //   var number = 0;
